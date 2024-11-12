@@ -7,6 +7,26 @@
 #include <conio.h>
 #include <assert.h>
 
+/* ================= 건물 및 유닛 =================== */
+typedef struct {
+	char* name;       // 건물 이름
+	int cost;         // 건설 비용
+	int durability;   // 내구도
+	char* command;    // 명령어
+} BUILDING;
+
+typedef struct {
+	char* name;       // 유닛 이름
+	int cost;         // 생산 비용
+	int population;   // 인구 수
+	int move_cycle;   // 이동 주기
+	int attack_power; // 공격력
+	int attack_cycle; // 공격 주기
+	int health;       // 체력
+	int vision;       // 시야
+	char* command;    // 명령어
+} UNIT;
+
 /* ================= system parameters =================== */
 #define TICK 10		// time unit(ms)
 
