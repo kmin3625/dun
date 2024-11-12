@@ -14,6 +14,9 @@
 #define COLOR_DEFAULT	15
 #define COLOR_CURSOR	112
 #define COLOR_RESOURCE  112
+#define COLOR_OBJECT_INFO 3    // 예: 파란색
+#define COLOR_COMMANDS 4       // 예: 빨간색
+
 
 // 지금은 자원, 맵, 커서만 표시
 // 앞으로 화면에 표시할 내용들 여기에 추가하기

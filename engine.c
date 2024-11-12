@@ -69,6 +69,8 @@ int main(void) {
 		display(resource, map, cursor);
 		Sleep(TICK);
 		sys_clock += 10;
+
+		void outro(void);
 	}
 }
 
@@ -80,7 +82,7 @@ void intro(void) {
 }
 
 void outro(void) {
-	printf("exiting...\n");
+	printf("끝났습니다.\n");
 	exit(0);
 }
 
